@@ -13,12 +13,13 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "Phubbicorns";
+  const DESCRTIPTION = "250 Chubs mirrored left and 250 Chubs flipped up. We believe every blue chip will have a mirrored counterpart. What if mirrored images are the next metagame? Mint Below (you need at least 1 SOL). ";
+  const DISCLAIMER = "Note: We chose Solana as it is quicker to build our own custom store so we don't face the same fate that phunks and phayc faced on Opensea. Unaffiliated with Chubbicorns. Buying does not guarantee a profit.";
+  const HEADER_TITLE = "First there were phunks and phayc. Time for the next blue chip Phubbicorns- on Solana";
+  const HEADER_LINK = "https://twitter.com/Phubbicorns";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "/phub.gif";
   /***********************************/
 
   const { solana } = window as any;
@@ -196,7 +197,9 @@
         class="text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
         >{HEADER_TITLE}</a
       >
+      
     {/if}
+    
     <!-- Card -->
     <div
       class=" max-w-lg mx-auto bg-white rounded-lg my-12  border-2"
@@ -233,6 +236,7 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
+      
         <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
         <div
           class=" text-lg sm:text-2xl font-mono font-bold py-5 tracking-wider"
@@ -300,5 +304,8 @@
         </div>
       </div>
     </div>
+     <div class="text-sm sm:text-md font-semibold pb-5 text-gray-400 ">
+          {DISCLAIMER}
+     </div>
   {/if}
 </main>
