@@ -14,7 +14,7 @@
   /***********************************/
   // Customise the app by changing the following variables.
   const TITLE = "Phubbicorns";
-  const DESCRTIPTION = "250 Chubs mirrored left and 250 Chubs flipped up. We believe every blue chip will have a mirrored counterpart. What if mirrored images are the next metagame? Mint Below (you need at least 1 SOL). ";
+  const DESCRTIPTION = "250 Chubs mirrored left and 250 Chubs flipped up. We believe every blue chip will have a mirrored counterpart. What if mirrored images are the next metagame? Mint Below (you need at least 1 SOL + gas). ";
   const DISCLAIMER = "Note: We chose Solana as it is quicker to build our own custom store so we don't face the same fate that phunks and phayc faced on Opensea. Unaffiliated with Chubbicorns.";
   const HEADER_TITLE = "First there were phunks and phayc. Time for the next blue chip Phubbicorns- on Solana";
   const HEADER_LINK = "https://twitter.com/Phubbicorns";
